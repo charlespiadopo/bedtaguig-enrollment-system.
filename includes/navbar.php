@@ -40,9 +40,9 @@
         $admission_info = mysqli_query($conn, "SELECT * FROM tbl_admissions WHERE admission_id = '$_SESSION[id]'");
         $row = mysqli_fetch_array($admission_info);
 
-    } elseif ($_SESSION['role'] == "Teacher") {
-        $teacher_info = mysqli_query($conn, "SELECT * FROM tbl_teachers WHERE teacher_id = '$_SESSION[id]'");
-        $row = mysqli_fetch_array($teacher_info);
+    // } elseif ($_SESSION['role'] == "Teacher") {
+    //     $teacher_info = mysqli_query($conn, "SELECT * FROM tbl_teachers WHERE teacher_id = '$_SESSION[id]'");
+    //     $row = mysqli_fetch_array($teacher_info);
 
     } elseif ($_SESSION['role'] == "Adviser") {
         $adviser_info = mysqli_query($conn, "SELECT * FROM tbl_adviser WHERE ad_id = '$_SESSION[id]'");

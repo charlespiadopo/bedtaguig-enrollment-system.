@@ -329,6 +329,33 @@
             </ul>
           </li>
           <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-folder"></i>
+              <p>
+                Strands
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../strands/add.strands.php" class="nav-link">
+                  <i class="fas fa-folder-plus nav-icon"></i>
+                  <p>Add Strands
+                  <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+              <li class="nav-item">
+                <a href="../strands/list.strand.php" class="nav-link">
+                  <i class="fas fa-folder nav-icon"></i>
+                  <p>Strand's list
+                  <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
             <a href="../academic_year/set.academic.year.php" class="nav-link">
               <i class="nav-icon fas fa-list"></i>
               <p>

@@ -5,7 +5,7 @@
 	// $password = 'Hw#7vmG4[H';
 	// $db = 'u733437513_enrollmentbac';
 
-    $server = 'localhost';
+    $server = 'localhost:3307';
     $username = 'root';
     $password = '';
     $db = 'bed_taguig';
@@ -13,6 +13,5 @@
     $conn = new mysqli($server, $username, $password, $db);
 
 
-    
 
 ?>
